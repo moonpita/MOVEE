@@ -1,0 +1,61 @@
+$main: #FED100;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+    color: #333;
+}
+p,
+a {
+    color: #333;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    position: relative;
+    transition: all .5s ease-in-out;
+}
+
+.container {
+    width: 1312px;
+    margin: 0 auto;
+}
+
+$container: 1312px;
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #333;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+@import "headerHero.scss";
+@import "stepsPrice.scss";
+@import "ParkReviews.scss";
+@import "MapFooter.scss";
+@import "adaptive.scss";
